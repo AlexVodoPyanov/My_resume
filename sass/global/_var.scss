@@ -1,0 +1,48 @@
+/* Brand Colors ------------------------------------------------*/
+
+	$color1: #e21a22;
+	$font-color: #6a6a6b;
+	$color2: #272727;
+
+	$placeholder: $color2;
+
+	$base-font-weight: 300;
+	$brand-font-1: '',sans-serif;
+	$brand-font-2: '',sans-serif;
+
+
+	/* background */
+    $--c-dark: #141D2D;
+	$--c-light: #fff;
+	$--c-accent: #FF6B08;
+	// $--c-accent: #03c03c;
+   
+	$--c-dark-blue: #253045; 
+	$--c-grey-blue: #4A5771;
+	$--c-grey-light: #F1F2F2;
+	$--c-grey: #BCC1D2; 
+
+	/* modals */
+
+	$--modal-bgd-dark: rgba(20, 29, 45, 0.8);
+
+	/* text */
+	$--txt-c-dark: $--c-dark;
+	$--txt-c-grey: #4F5B70;
+	$--txt-c-grey-light: $--c-grey-light;
+	$--txt-c-accent: $--c-accent;
+	$--txt-c-light: $--c-light;
+   
+	/* font */
+	$--font-main: 'Acrom', sans-serif;
+   
+	/* container width */
+	$--vertical-scroll: 20px;
+	$--mobile: calc(300px + $--vertical-scroll);
+	$--tablet: calc(640px + $--vertical-scroll);
+	$--desktop: calc(900px + $--vertical-scroll);
+	$--desktop-lg: calc(1146px + $--vertical-scroll);
+   
+	/* animation */
+	$--animation-fast: 0.1s;
+	$--animation-slow: 0.3s;

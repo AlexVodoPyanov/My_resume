@@ -1,0 +1,143 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none;
+  display: block;
+  background: $--modal-bgd-dark;
+}
+
+.modal-active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal-mobile-menu {
+  background: $--c-light;
+}
+
+.modal-mobile-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.mobile-menu-container {
+  height: 80%;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.mobile-menu-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile-menu-item {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $--txt-c-grey;
+  margin-bottom: 35px;
+}
+
+.mobile-menu-contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-close-btn {
+  font-size: 18px;
+  position: absolute;
+  color: $--c-grey-blue;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+}
+
+.mobile-menu-close-btn {
+  background: $--c-accent;
+  color: $--c-light;
+  padding: 10px 14px;
+}
+
+.body-scroll-disable {
+  overflow: hidden;
+}
+
+// video
+
+.my-video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 40px 20px;
+}
+
+.my-video-content {
+  width: 100%;
+}
+
+.my-video {
+  background: $--c-light;
+  color: $--c-dark;
+  padding: 7px 10px;
+  border-radius: 5px;
+}
+
+/* PROJECT MODAL */
+
+.project-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+  box-sizing: border-box;
+}
+
+.project-modal-container {
+  background: $--c-light;
+  padding: 45px 0;
+  text-align: left;
+  position: relative;
+  box-sizing: border-box;
+  height: 85%;
+}
+
+.project-modal-scrollable {
+  overflow-y: auto;
+  height: 100%;
+  padding: 0 25px;
+}
+
+.project-modal-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: $--txt-c-dark;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 0 25px 0;
+  display: block;
+}
+
+.project-modal-text {
+  font-size: 16px;
+  line-height: 145%;
+  color: $--txt-c-dark;
+  margin: 0 0 30px 0;
+}
+
+.project-modal-img {
+  width: 100%;
+  margin-bottom: 30px;
+}

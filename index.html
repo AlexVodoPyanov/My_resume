@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <style>
+      .modal {
+        display: none;
+      }
+    </style>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/choices.min.css" />
+    <link rel="stylesheet" href="css/all.css" type="text/css" />
+    <link rel="stylesheet" href="fonts/font-face.css" type="text/css" />
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <header>
+        <div class="layout">
+          <!-- FRONT PAGE -->
+
+          <section class="front-page">
+            <nav class="navigation">
+              <a href="#" class="logo-link">
+                <img src="img/goit-logo.svg" alt="goit logo" />
+              </a>
+
+              <div class="navigation-part" id="mobile-menu-btn">
+                <a href="#" class="hire-me-btn"> — HIRE ME</a>
+                <a href="#" class="mobile-menu"><i class="fas fa-bars"></i></a>
+              </div>
+            </nav>
+
+            <div class="front-page-main-info">
+              <h2 class="front-page-my-name">[Alex Vodopyanov]</h2>
+              <h3 class="front-page-profession">{Frontend} _DEVELOPER</h3>
+              <p class="front-page-description">
+                / Using HTML, CSS, JavaScript, Vue.js and Node.js I help to build websites, small and medium web apps for business
+              </p>
+              <button class="front-page-gallery-btn accent-btn">See my recent works —</button>
+            </div>
+
+            <div class="front-page-about-me-video-container">
+              <img src="img/my-photo.jpg" alt="my photo" class="front-page-my-photo" />
+              <div class="front-page-my-descr-container">
+                <p class="front-page-my-descr">About me in 2 minutes</p>
+                <button class="front-page-my-video-btn" id="my-video-btn">
+                  <i class="fas fa-play"></i>
+                  PLAY
+                </button>
+              </div>
+            </div>
+
+            <img src="img/laptop.svg" alt="" class="front-page-laptop" />
+
+            <!-- EXPERIENCE -->
+
+            <div class="experience-wrapper">
+              <div class="experience-container">
+                <h3 class="experience-title">My Coding Skills & Experience</h3>
+
+                <div class="experience-skill">
+                  <div class="experience-skill-item-container">
+                    <div class="experience-dots">
+                      <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                      <!-- <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                      <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                      <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                      <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i> -->
+                    </div>
+
+                    <p class="experience-text">Html</p>
+                  </div>
+
+                  <div class="experience-skill-item-container">
+                    <div class="experience-dots">
+                      <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                      <!-- <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                      <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                      <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                      <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i> -->
+                    </div>
+
+                    <p class="experience-text">CSS/SCSS</p>
+                  </div>
+
+                  <div class="experience-skill-item-container">
+                    <div class="experience-dots">
+                      <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                      <!-- <i class="experience-dots-item far fa-circle"></i>
+                      <i class="experience-dots-item far fa-circle"></i>
+                      <i class="experience-dots-item far fa-circle"></i>
+                      <i class="experience-dots-item far fa-circle"></i> -->
+                    </div>
+
+                    <p class="experience-text">JavaScript</p>
+                  </div>
+
+                  <div class="experience-skill-item-container">
+                    <div class="experience-dots">
+                      <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                      <!-- <i class="experience-dots-item far fa-circle"></i>
+                      <i class="experience-dots-item far fa-circle"></i>
+                      <i class="experience-dots-item far fa-circle"></i>
+                      <i class="experience-dots-item far fa-circle"></i> -->
+                    </div>
+
+                    <p class="experience-text">Vue.JS</p>
+                  </div>
+
+                  <div class="experience-skill-item-container">
+                    <div class="experience-dots">
+                      <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                      <!-- <i class="experience-dots-item far fa-circle"></i>
+                      <i class="experience-dots-item far fa-circle"></i>
+                      <i class="experience-dots-item far fa-circle"></i>
+                      <i class="experience-dots-item far fa-circle"></i> -->
+                    </div>
+
+                    <p class="experience-text">Vuex</p>
+                  </div>
+
+                  <div class="experience-skill-item-container">
+                    <div class="experience-dots">
+                      <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                      <!-- <i class="experience-dots-item far fa-circle"></i>
+                      <i class="experience-dots-item far fa-circle"></i>
+                      <i class="experience-dots-item far fa-circle"></i>
+                      <i class="experience-dots-item far fa-circle"></i> -->
+                    </div>
+
+                    <p class="experience-text">Node.JS</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </header>
+
+      <main>
+        <div class="layout">
+          <section class="about" id="about">
+            <div class="container container-left">
+              <h3 class="section-title about-title">I code things from scratch_</h3>
+              <p class="about-descr">
+                <span>[and help to create</span>
+                <span>great web apps]</span>
+              </p>
+              <div class="about-img-container">
+                <p class="about-img-text">
+                  WEB
+                  <img src="img/web-apps-laptop.png" alt="web apps laptop" class="about-img" />
+                </p>
+              </div>
+              <p class="about-text">
+                / I will help you to create a high-performance Landing Page, functional corporate website for your business, interactive web app for SaaS,
+                startup, or other services.
+              </p>
+              <p class="about-text">/ My specialization is front-end development — client side of the web. But I also have full-stack developer experience.</p>
+            </div>
+          </section>
+
+          <section class="personal-projects" id="projects">
+            <div class="container">
+              <h3 class="section-title personal-projects-title">My personal _projects</h3>
+
+              <div class="personal-project-item">
+                <div class="personal-project-item-container">
+                  <div class="projet-item-dot-container">
+                    <div class="projet-item-dot"></div>
+                    <div class="projet-item-dot"></div>
+                    <div class="projet-item-dot"></div>
+                  </div>
+                  <img src="img/projects/personal/full-stack.jpg" alt="full stack website" class="personal-project-img" />
+                </div>
+                <p class="personal-project-name">
+                  <i class="fas fa-laptop-code personal-project-icon"></i>
+                  <span>Technology: HTML5, CSS3, JS</span>
+                </p>
+                <button class="personal-project-btn accent-btn" id="personal-project-full-stack-btn">More details —</button>
+              </div>
+
+              <div class="personal-project-item">
+                <div class="personal-project-item-container">
+                  <div class="projet-item-dot-container">
+                    <div class="projet-item-dot"></div>
+                    <div class="projet-item-dot"></div>
+                    <div class="projet-item-dot"></div>
+                  </div>
+                  <img src="img/projects/personal/wedding.jpg" alt="wedding website" class="personal-project-img" />
+                </div>
+                <p class="personal-project-name">
+                  <i class="fas fa-laptop-code personal-project-icon"></i>
+                  <span>Technology: HTML, CSS, JavaScript, PHP</span>
+                </p>
+                <button class="personal-project-btn accent-btn" id="personal-project-wedding-project-btn">More details —</button>
+              </div>
+
+              <div class="personal-project-item">
+                <div class="personal-project-item-container">
+                  <div class="projet-item-dot-container">
+                    <div class="projet-item-dot"></div>
+                    <div class="projet-item-dot"></div>
+                    <div class="projet-item-dot"></div>
+                  </div>
+                  <img src="img/projects/personal/pro-test.jpg" alt="pro test website" class="personal-project-img" />
+                </div>
+                <p class="personal-project-name">
+                  <i class="fas fa-laptop-code personal-project-icon"></i>
+                  <span>Technology: React.js, Node.js</span>
+                </p>
+                <button class="personal-project-btn accent-btn" id="personal-project-pro-test-btn">More details —</button>
+              </div>
+
+              <div class="personal-project-item">
+                <div class="personal-project-item-container">
+                  <div class="projet-item-dot-container">
+                    <div class="projet-item-dot"></div>
+                    <div class="projet-item-dot"></div>
+                    <div class="projet-item-dot"></div>
+                  </div>
+                  <img src="img/projects/personal/goit.jpg" alt="goit website" class="personal-project-img" />
+                </div>
+                <p class="personal-project-name">
+                  <i class="fas fa-laptop-code personal-project-icon"></i>
+                  <span>Technology: HTML, CSS, JavaScript, Wordpress</span>
+                </p>
+                <button class="personal-project-btn accent-btn" id="personal-project-goit-btn">More details —</button>
+              </div>
+            </div>
+          </section>
+
+          <section class="team-projects">
+            <div class="container">
+              <span class="team-projects-title-bgd">TEAM</span>
+              <h3 class="section-title team-projects-title">Teamwork _projects</h3>
+              <div class="team-project-item">
+                <div class="personal-project-item-container">
+                  <div class="projet-item-dot-container">
+                    <div class="projet-item-dot"></div>
+                    <div class="projet-item-dot"></div>
+                    <div class="projet-item-dot"></div>
+                  </div>
+                  <img src="img/projects/team/questify.jpg" alt="quetify app" class="personal-project-img" />
+                </div>
+                <p class="team-project-name">
+                  <i class="fas fa-laptop-code personal-project-icon"></i>
+                  Technology: React.js, Node.js
+                </p>
+                <button class="personal-project-btn accent-btn" id="team-project-questify-btn">More details —</button>
+              </div>
+              <div class="team-project-item">
+                <div class="personal-project-item-container">
+                  <div class="projet-item-dot-container">
+                    <div class="projet-item-dot"></div>
+                    <div class="projet-item-dot"></div>
+                    <div class="projet-item-dot"></div>
+                  </div>
+                  <img src="img/projects/team/it-test.jpg" alt="it test app" class="personal-project-img" />
+                </div>
+                <p class="team-project-name">
+                  <i class="fas fa-laptop-code personal-project-icon"></i>
+                  Technology: React.js, Node.js
+                </p>
+                <button class="personal-project-btn accent-btn" id="team-project-it-test-btn">More details —</button>
+              </div>
+            </div>
+          </section>
+
+          <section class="callback-form">
+            <div class="container">
+              <form action="" class="callback-form-container">
+                <h3 class="callback-form-title">/Are you minding [a project?]</h3>
+                <p class="callback-form-descr">Leave a request to discuss the task and technical requirements</p>
+                <input type="text" class="callback-form-input callback-form-input-border" id="callback-form-input-name" placeholder="Name" />
+                <input type="email" class="callback-form-input callback-form-input-border" id="callback-form-input-mail" placeholder="Email" />
+                <input type="tel" class="callback-form-input callback-form-input-border" id="callback-form-input-phone" placeholder="+380 (__) ___-__-__" />
+                <!-- pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"  -->
+                <input type="submit" class="callback-form-submit accent-btn" placeholder="Submit" value="Discuss the project —" />
+              </form>
+            </div>
+          </section>
+
+          <section class="calculator" id="calculator">
+            <div class="container">
+              <h3 class="calculator-title section-title mobile-element">Calculate_ the cost of a future project</h3>
+              <h3 class="calculator-title section-title tablet-element">
+                Calculate_ <br />
+                the cost of a <br />
+                future project
+              </h3>
+              <p class="calculator-descr mobile-element">
+                <span>This is an</span>
+                <span class="calculator-descr-accent">approximate</span>
+                <span>calculation.</span>
+              </p>
+              <p class="calculator-descr tablet-element">
+                <span>&nbsp;This is an approximate&nbsp;</span>
+                <span>&nbsp;calculation.&nbsp;</span>
+              </p>
+              <img src="img/calculator.svg" alt="calculator" class="calculator-icon" />
+              <p class="calculator-text">/ The final cost depends on the technical requirements, terms, specifics of your project.</p>
+
+              <form action="" class="calculator-form">
+                <div class="calculator-form-container">
+                  <div class="calculator-form-input">
+                    <label for="calculator-form-website-type" class="calculator-form-title">What should be done:</label>
+                    <select name="website-type" id="calculator-form-website-type" class="calculator-form-select">
+                      <option value="landing page:600" selected>Landing page</option>
+                      <option value="website:1000">Website</option>
+                      <option value="cms:2000">CMS</option>
+                      <option value="portal:3000">Portal</option>
+                      <option value="e-shop:2000">E-shop</option>
+                    </select>
+                  </div>
+
+                  <div class="calculator-form-input">
+                    <label for="calculator-form-tehnologies" class="calculator-form-title">Choose preferred technologies</label>
+                    <select name="tehnologies" id="calculator-form-tehnologies" class="calculator-form-select" multiple>
+                      <option selected value="htm:500">HTML</option>
+                      <option selected value="css:500">CSS</option>
+                      <option selected value="javascript:700">JavaScript</option>
+                      <option value="php:2000">PHP</option>
+                      <option value="vue:1000">Vue.js</option>
+                      <option value="node:1000">Node.js</option>
+                    </select>
+                  </div>
+
+                  <div class="calculator-form-input">
+                    <label for="" class="calculator-form-title">Personal account and shopping cart:</label>
+                    <div class="calculator-form-input-radio-container" id="calculator-form-input-cart">
+                      <input checked type="radio" class="calculator-form-input-field" id="calculator-form-input-cart-yes" name="cart" value="yes" />
+                      <label for="calculator-form-input-cart-yes" class="calculator-form-input-label">Yes</label>
+                      <input type="radio" class="calculator-form-input-field" id="calculator-form-input-cart-no" name="cart" value="no" />
+                      <label for="calculator-form-input-cart-no" class="calculator-form-input-label">No</label>
+                    </div>
+                  </div>
+
+                  <div class="calculator-form-input">
+                    <label for="" class="calculator-form-title">Requests reception on your email:</label>
+                    <div class="calculator-form-input-radio-container" id="calculator-form-input-reception">
+                      <input checked type="radio" class="calculator-form-input-field" id="calculator-form-input-reception-yes" name="reception" value="yes" />
+                      <label for="calculator-form-input-reception-yes" class="calculator-form-input-label">Yes</label>
+                      <input type="radio" class="calculator-form-input-field" id="calculator-form-input-reception-no" name="reception" value="no" />
+                      <label for="calculator-form-input-reception-no" class="calculator-form-input-label">No</label>
+                    </div>
+                  </div>
+
+                  <div class="calculator-form-input">
+                    <p class="calculator-form-total">Cost:</p>
+                    <p class="calculator-form-total-cost">350$</p>
+                  </div>
+
+                  <input type="submit" value="Find out the cost  —" class="accent-btn find-out-the-cost" />
+                </div>
+              </form>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer id="contacts">
+        <div class="layout">
+          <section class="footer">
+            <div class="container">
+              <h3 class="footer-my-name">Alex Vodopyanov</h3>
+              <p class="footer-my-profession">Frontend Developer</p>
+              <a href="tel:+383535353535" class="my-tel">+38 (353) 535 35 35</a>
+              <a href="mailto:alexvodopyanov@gmail.com" class="my-mail">alexvodopyanov@gmail.com</a>
+            </div>
+
+            <div class="social-links">
+              <ul>
+                <li class="social-links-item">
+                  <a href="#">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
+                <li class="social-links-item">
+                  <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="social-links-item">
+                  <a href="#">
+                    <i class="fab fa-facebook-square"></i>
+                  </a>
+                </li>
+                <li class="social-links-item">
+                  <a href="#">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </footer>
+    </div>
+
+    <!-- MODALS -->
+
+    <div class="modals-wrapper">
+      <!-- MOBILE MENU  -->
+
+      <div class="modal modal-mobile-menu" id="mobile-menu">
+        <div class="modal-mobile-content">
+          <div class="container mobile-menu-container">
+            <i class="fas fa-times modal-close-btn mobile-menu-close-btn"></i>
+            <nav class="mobile-menu-items">
+              <a href="#about" class="mobile-menu-item">ABOUT</a>
+              <a href="#projects" class="mobile-menu-item">PROJECTS</a>
+              <a href="#calculator" class="mobile-menu-item">COST CALCULATOR</a>
+              <a href="#contacts" class="mobile-menu-item">CONTACTS</a>
+            </nav>
+
+            <div class="mobile-menu-contacts">
+              <a href="tel:+383535353535" class="my-tel">+38 (353) 535 35 35</a>
+              <a href="mailto:alexvodopyanov@gmail.com" class="my-mail">alexvodopyanov@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- VIDEO -->
+
+      <div class="modal modal-area-bgd" id="my-video-modal">
+        <div class="my-video-container">
+          <i class="fas fa-times modal-close-btn my-video" id="mobile-menu-btn"></i>
+          <video class="my-video-content modal-area-content" src="video.mp4" controls></video>
+        </div>
+      </div>
+
+      <!-- REQUEST RECEIVED  -->
+
+      <div class="modal modal-request-received modal-area-bgd" id="request-received">
+        <div class="request-received-container modal-area-content">
+          <i class="fas fa-times modal-close-btn my-video" id="mobile-menu-btn"></i>
+          <h3 class="request-received-title">{Thanks}</h3>
+          <p class="request-received-primary-msg">I've received your request/</p>
+          <p class="request-received-secondary-msg">I will contact you soon =)</p>
+        </div>
+      </div>
+
+      <!-- PERSONAL PROJECTS FULL STACK -->
+
+      <div class="modal project-modal modal-area-bgd" id="personal-project-full-stack">
+        <div class="project-modal-container modal-area-content">
+          <i class="fas fa-times modal-close-btn"></i>
+
+          <div class="project-modal-scrollable">
+            <img class="project-modal-img" src="img/projects/personal/full-stack.jpg" alt="full stack project image 1" />
+
+            <a href="https://fullstackonline.goit.ua/" class="project-modal-title">Goit Full Stack разработчик</a>
+
+            <p class="project-modal-text">
+              "Одностраничный лендинг с использованием HTML и CSS. Сайт рассказывает потенциальным клиентам о преимуществах обучения на курсе, программе,
+              стоимости и длительности занятий.
+            </p>
+
+            <p class="project-modal-text">
+              Также на сайте добавлена форма обратной связи, соцсети и возможность посмотреть видео-отзывы выпускников, не уходя на внешние ресурсы. Компактно и
+              в доступной форме дана вся информация о курсе, преподавателях и процессе обучения. Формат сайта подходит для небольших компаний или раскрытия
+              информации о конкретном продукте."
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- PERSONAL PROJECTS WEDDING -->
+
+      <div class="modal project-modal modal-area-bgd" id="personal-project-wedding-project">
+        <div class="project-modal-container modal-area-content">
+          <i class="fas fa-times modal-close-btn"></i>
+
+          <div class="project-modal-scrollable">
+            <img class="project-modal-img" src="img/projects/personal/wedding.jpg" alt="wedding project image 1" />
+
+            <a href="https://www.beeruza.com.ua/" class="project-modal-title">Beeruza - свадебные пригласительные и аксессуары</a>
+
+            <p class="project-modal-text">
+              "Интернет-магазин свадебных принадлежностей. Сайт предназначен для подготовки к свадьбе. Он экономит время и позволяет купить все аксессуары для
+              свадьбы в одном месте: приглашения, декор, открытки, планер. Также можно заказать звонок и задать все вопросы по телефону.
+            </p>
+
+            <p class="project-modal-text">
+              Чтобы приобрести выбранные товары из нужно положить в корзину и оплатить удобным способом. Формат сайта подходит для бизнеса и продажи товаров."
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- PERSONAL PROJECTS PRO-TEST -->
+
+      <div class="modal project-modal modal-area-bgd" id="personal-project-pro-test">
+        <div class="project-modal-container modal-area-content">
+          <i class="fas fa-times modal-close-btn"></i>
+
+          <div class="project-modal-scrollable">
+            <img class="project-modal-img" src="img/projects/personal/pro-test.jpg" alt="pro-test project image 1" />
+
+            <a href="https://pro-test.goit.co.ua/" class="project-modal-title">Pro test - техническая подготовка QA</a>
+
+            <p class="project-modal-text">
+              Веб-приложение Pro Test поможет начинающему и опытному QA-инженеру оценить уровень своих знаний. В данном приложении реализована регистрация и
+              логинизация пользователя через google account, а также через e-mail и пароль. После чего пользователь может пройти тест и увидеть его результаты.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- PERSONAL PROJECTS GOIT -->
+
+      <div class="modal project-modal modal-area-bgd" id="personal-project-goit">
+        <div class="project-modal-container modal-area-content">
+          <i class="fas fa-times modal-close-btn"></i>
+
+          <div class="project-modal-scrollable">
+            <img class="project-modal-img" src="img/projects/personal/goit.jpg" alt="goit project image 1" />
+
+            <a href="https://goit.ua/" class="project-modal-title">GoIT - курсы программирования</a>
+
+            <p class="project-modal-text">
+              Многостраничный сайт с использованием HTML, CSS и JavaScript. На сайте есть форма обратной связи и pop-up, который появляется через 30 секунд
+              вашего присутствия на сайте.
+            </p>
+
+            <p class="project-modal-text">
+              Также на сайте есть отдельная страница курсов, с последующим переходом на лендинг каждого отдельного курса. Постоянная рубрика Journal сделана в
+              виде блога с полезной информацией для начинающих разработчиков.
+            </p>
+
+            <p class="project-modal-text">
+              На сайте есть отзывы выпускников, контакты для связи и события компании. Кнопка в правом углу переводит пользователя в телеграм-бот, где он может
+              создать свой собственный сайт с автопроверкой заданий.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- TEAM PROJECTS FULL STACK -->
+
+      <div class="modal project-modal modal-area-bgd" id="team-project-questify">
+        <div class="project-modal-container modal-area-content">
+          <i class="fas fa-times modal-close-btn"></i>
+
+          <div class="project-modal-scrollable">
+            <img class="project-modal-img" src="img/projects/team/questify.jpg" alt="Questify project image 1" />
+
+            <a href="https://questify.goit.co.ua/" class="project-modal-title">Questify - turn your life into a thrilling game</a>
+
+            <p class="project-modal-text">
+              Увлекательное веб-приложение, которое призвано помочь превратить рутинные задачи в увлекательные квесты и захватывающие челенджи, которые система
+              сама ставит перед пользователем.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- TEAM PROJECTS TEST IT -->
+
+      <div class="modal project-modal modal-area-bgd" id="team-project-it-test">
+        <div class="project-modal-container modal-area-content">
+          <i class="fas fa-times modal-close-btn"></i>
+
+          <div class="project-modal-scrollable">
+            <img class="project-modal-img" src="img/projects/team/it-test.jpg" alt="it-test project image 1" />
+
+            <a href="https://testit.co.ua/" class="project-modal-title">Тест на профессиональную личность в IT </a>
+
+            <p class="project-modal-text">Web-приложение, которое поможет родителям определиться к какой профессии в IT склонен их ребенок.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/choices.min.js"></script>
+
+    <script src="js/calculator-scripts.js"></script>
+
+    <!-- <script src="js/callback-form.js"></script> -->
+
+    <script src="js/project-modals.js"></script>
+
+    <script src="js/modals.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

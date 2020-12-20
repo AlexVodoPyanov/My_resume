@@ -1,0 +1,45 @@
+/* Example */ 
+/* @font-face {
+    font-family: 'Corbel';
+    src: url('../fonts/Corbel.eot');
+    src: url('../fonts/Corbel.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Corbel.woff') format('woff'),
+         url('../fonts/Corbel.ttf') format('truetype'),
+         url('../fonts/Corbel.svg#Corbel') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+@font-face {
+    font-family: "Acrom";
+    src: url("../fonts/acrom/Acrom-ExtraBold.eot");
+    src: local("Acrom ExtraBold"), local("Acrom-ExtraBold"),
+      url("../fonts/acrom/Acrom-ExtraBold.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/acrom/Acrom-ExtraBold.woff") format("woff"),
+      url("../fonts/acrom/Acrom-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  @font-face {
+      font-family: 'Acrom';
+      src: url('../fonts/acrom/Acrom-Bold.eot');
+      src: local('Acrom Bold'), local('Acrom-Bold'),
+          url('../fonts/acrom/Acrom-Bold.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/acrom/Acrom-Bold.woff') format('woff'),
+          url('../fonts/acrom/Acrom-Bold.ttf') format('truetype');
+      font-weight: bold;
+      font-style: normal;
+  }
+  
+  @font-face {
+      font-family: 'Acrom';
+      src: url('../fonts/acrom/Acrom-Regular.eot');
+      src: local('Acrom Regular'), local('Acrom-Regular'),
+          url('../fonts/acrom/Acrom-Regular.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/acrom/Acrom-Regular.woff') format('woff'),
+          url('../fonts/acrom/Acrom-Regular.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+  }

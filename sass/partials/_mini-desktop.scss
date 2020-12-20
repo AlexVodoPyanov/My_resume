@@ -1,0 +1,203 @@
+@media (min-width: 1024px) and (max-width: 1919px) {
+  .front-page-my-name {
+    font-size: 36px;
+    line-height: 43px;
+  }
+
+  .front-page-profession {
+    font-size: 70px;
+    line-height: 84px;
+  }
+
+  .front-page-description {
+    width: 400px;
+    font-size: 17px;
+    line-height: 150%;
+  }
+
+  .front-page-gallery-btn {
+    width: 400px;
+  }
+
+  .front-page-about-me-video-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .front-page-my-photo {
+    margin: 15px;
+    margin-bottom: 60px;
+    height: 175px;
+  }
+
+  .front-page-my-descr-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    width: 140px;
+    margin: 15px;
+  }
+
+  .front-page-my-descr {
+    text-align: left;
+  }
+
+  .about .container {
+    position: relative;
+    width: 1000px;
+  }
+
+  .container {
+    width: 1000px;
+  }
+
+  .about-text {
+    width: 340px;
+  }
+
+  .about-img-text {
+    position: absolute;
+    right: -20px;
+    top: 228px;
+    font-size: 200px;
+    line-height: 240px;
+  }
+
+  .about-img {
+    width: 361px;
+    height: 390px;
+    left: -200px;
+    top: 70px;
+  }
+
+  .about-img-container {
+    margin-bottom: 0;
+  }
+
+  .about-title {
+    font-size: 50px;
+    line-height: 60px;
+    width: 600px;
+  }
+
+  .about-descr {
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 60px;
+  }
+
+  .about-text:last-child {
+    width: 320px;
+    margin-bottom: 84px;
+  }
+
+  .team-projects-title,
+  .personal-projects-title {
+    text-align: center;
+    width: 400px;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    margin-left: 300px;
+  }
+
+  .team-projects-title-bgd {
+    left: +10px;
+    font-size: 340px;
+    line-height: 240px;
+  }
+
+  .team-project-item,
+  .personal-project-item {
+    margin: 0 25px 40px 25px;
+  }
+
+  .callback-form .container,
+  .personal-projects .container,
+  .team-projects .container {
+    align-items: normal;
+  }
+
+  .callback-form .container .callback-form-container {
+    width: 982px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .callback-form .container .callback-form-container .callback-form-title {
+    font-size: 36px;
+    line-height: 43px;
+    width: 400px;
+  }
+
+  .callback-form-descr {
+    width: 350px;
+  }
+
+  .callback-form .container .callback-form-container .callback-form-input {
+    width: 350px;
+  }
+
+  .callback-form-submit {
+    width: 350px;
+    margin-top: 10px;
+  }
+
+  .calculator .container {
+    align-items: normal;
+    position: relative;
+    width: 982px;
+    padding: 70px 20px 90px 20px;
+  }
+
+  .container-left {
+    padding-left: 150px;
+  }
+
+  .calculator-icon {
+    width: 645px;
+    height: 500px;
+    position: absolute;
+    z-index: 0;
+    right: 30px;
+    top: 160px;
+  }
+
+  .calculator-title {
+    width: 600px;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+    margin-bottom: 37px;
+  }
+
+  .calculator-descr {
+    width: 600px;
+    font-size: 36px;
+    line-height: 140%;
+    text-align: left;
+    z-index: 1;
+  }
+
+  .calculator-text {
+    text-align: left;
+    width: 300px;
+  }
+
+  .calculator-form {
+    width: 912px;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+  }
+
+  .find-out-the-cost {
+    width: 450px;
+  }
+
+  .mobile-element {
+    display: none;
+  }
+}

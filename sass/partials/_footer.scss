@@ -1,0 +1,66 @@
+footer {
+	display:block;
+	width:100%;
+	margin:0 0 0;
+	padding:0 0 0;
+	.layout {
+		.footer {
+			.container {
+				padding-bottom: 20px;
+				padding-top: 15;
+				.footer-my-name {
+					font-weight: bold;
+					font-size: 17px;
+					line-height: 150%;
+					text-align: center;
+					color: $--txt-c-dark;
+					margin-bottom: 7px;
+				}
+				.footer-my-profession {
+					font-size: 17px;
+					line-height: 150%;
+					text-align: center;
+					color: $--c-dark;
+					margin-bottom: 20px;
+				}
+			}
+			.social-links {
+				ul {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					margin-bottom: 50px;
+					.social-links-item {
+						margin-right: 16px;
+						margin-left: 16px;
+						&-nth:last-child {
+							margin-right: 0;
+						}
+						a {
+							color: $--txt-c-dark;
+							i {
+								font-size: 25px;
+								color: $--c-dark;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.my-tel {
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 150%;
+	text-align: center;
+	color: $--c-dark;
+	margin-bottom: 15px;
+}
+.my-mail {
+	font-size: 17px;
+	line-height: 150%;
+	text-align: center;
+	color: $--c-dark;
+}

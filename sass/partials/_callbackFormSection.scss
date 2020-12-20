@@ -1,0 +1,63 @@
+.callback-form {
+    box-sizing: border-box;
+    .container {
+        padding-bottom: 40px;
+        .callback-form-container {
+            width: 300px;
+            background: $--c-dark;
+            padding: 35px 20px 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-sizing: border-box;
+            border-radius: 5px;
+            .callback-form-title {
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 29px;
+                text-align: center;
+                text-transform: uppercase;
+                color: $--c-light;
+                margin: 0 0 20px 0;
+            }
+            .callback-form-descr {
+                font-size: 17px;
+                line-height: 150%;
+                text-align: center;
+                color: $--c-light;
+                margin: 0 0 30px 0;
+            }
+            .callback-form-input {
+                width: 240px;
+                background: transparent;
+                padding: 10px 0 15px 0;
+                color: $--c-grey;
+                text-align: center;
+                margin-bottom: 30px;
+                box-sizing: border-box;
+                outline: none;
+                &::placeholder {
+                    text-align: center;
+                    color: $--c-grey-blue;
+                }
+            }
+            .callback-form-submit {
+                font-weight: bold;
+                font-size: 15px;
+                line-height: 18px;
+                text-align: right;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                color: $--c-light;
+                padding: 13px 10px;
+                border: none;
+                outline: none;
+            }
+        }
+    }
+}
+
+.callback-form-input-border {
+    border: none;
+    border-bottom: 1px solid $--c-grey-blue;
+}

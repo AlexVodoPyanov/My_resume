@@ -1,0 +1,46 @@
+/* wrapper */
+#wrapper {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.layout {
+  margin: 0 auto;
+  position: relative;
+  width: 1400px;
+  // width: 320px;
+  // padding: 0 10px 0 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $--c-light;
+  @media (min-width: 1024px) and (max-width: 1920px) {
+    width: 1024px;
+  }
+  @media (min-width: 640px) and (max-width: 1023px) {
+    width: 640px;
+  }
+  @media (min-width: 320px) and (max-width: 639px) {
+    width: 320px;
+  }
+}
+main {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+#content {
+  position: relative;
+}
+#sidebar {
+  position: relative;
+}
+aside {
+  position: relative;
+}
+body {
+  font-family: 'Acrom';
+  background: $--c-grey-light;
+}

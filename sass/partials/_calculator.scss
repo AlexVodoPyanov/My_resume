@@ -1,0 +1,109 @@
+/* CALCULATOR FORM SECTION */
+
+.calculator {
+  background: $--c-dark;
+}
+
+.calculator .container {
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+
+.calculator-icon {
+  width: 195px;
+}
+
+.calculator-descr {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: $--txt-c-light;
+  margin: 0 0 30px 0;
+}
+
+.calculator-descr span {
+  background: $--c-accent;
+  padding: 5px;
+}
+
+.calculator-descr .calculator-descr-accent {
+  padding: 5px 10px;
+}
+
+.calculator-title {
+  width: 270px;
+  margin-bottom: 20px;
+}
+
+.calculator-text {
+  font-size: 17px;
+  line-height: 150%;
+  text-align: center;
+  color: $--txt-c-light;
+  margin: 20px 0 30px 0;
+}
+
+.calculator-form-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.calculator-form-title {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 150%;
+  color: $--txt-c-dark;
+  margin-bottom: 15px;
+}
+
+.calculator-form {
+  background: $--c-light;
+  padding: 30px 15px;
+  border-radius: 5px;
+}
+
+.calculator-form-select {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid $--c-grey-light;
+  padding: 5px 0 17px 0;
+}
+
+.calculator-form-input-radio-container {
+  display: flex;
+  align-items: center;
+}
+
+.calculator-form-input-label {
+  margin-right: 15px;
+  font-size: 17px;
+  line-height: 150%;
+  color: $--c-dark;
+}
+
+.calculator-form-input-field {
+  margin-right: 10px;
+}
+
+.calculator-form-total {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: $--c-dark;
+  margin: 0;
+}
+
+.calculator-form-total-cost {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: $--c-dark;
+  margin: 0;
+}

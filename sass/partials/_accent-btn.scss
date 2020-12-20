@@ -1,0 +1,17 @@
+.accent-btn {
+  background: $--c-accent;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $--c-light;
+  padding: 20px 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
